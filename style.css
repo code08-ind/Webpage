@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #8f20cf;
+  background: #8e16d3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #850eca,
+    #230d31
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8313c4,
+    #200a2e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+div.one {
+  text-align: center;
+  margin-top: 50px;
+  height: 100%;
+  color: white;
+}
+
+div.one h1 {
+  margin-bottom: 40px;
+}
+
+div.one h1 span {
+  color: orange;
+}
+
+div.one p {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+div.one h5#center {
+  margin-top: 40px;
+  background-color: rgb(255, 255, 255, 0.3);
+  padding: 14px 0px;
+  margin-left: -100px;
+  padding-left: 110px;
+  border-top-right-radius: 24px;
+  font-size: 1.1em;
+  border-bottom-right-radius: 24px;
+}
+
+div.one h5#center span#green {
+  color: rgb(2, 255, 57);
+  font-weight: 700;
+}
+
+div.one h3.next {
+  margin-top: 40px;
+}
+
+div.one button.btn {
+  margin-top: 50px;
+  padding: 10px 70px;
+  border-radius: 25px;
+  background-color: red;
+  color: white;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+
+div.two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h5#head {
+  color: white;
+}
+div.card {
+  margin-bottom: 15px;
+  color: white;
+}
+
+div.card1 {
+  background: #36d1dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #5b86e5,
+    #36d1dc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #5b86e5,
+    #36d1dc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 15px;
+}
+
+div.card2 {
+  background: #ff5f6d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffc371,
+    #ff5f6d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffc371,
+    #ff5f6d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 15px;
+}
+
+div.card3 {
+  background: #b993d6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8ca6db,
+    #b993d6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8ca6db,
+    #b993d6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 15px;
+}
+
+p.card-text span.item {
+  font-weight: 700;
+}
+
+h6.add {
+  color: black;
+  font-weight: 700;
+}
+
+div.card-body h3.vertical1 {
+  display: inline;
+  transform: rotate(-90deg);
+  text-align: right;
+  color: #0f30eb;
+}
+
+div.card-body h3.vertical2 {
+  display: inline;
+  transform: rotate(-90deg);
+  text-align: right;
+  color: yellow;
+}
+
+div.card-body h3.vertical3 {
+  display: inline;
+  transform: rotate(-90deg);
+  text-align: right;
+  color: purple;
+}
